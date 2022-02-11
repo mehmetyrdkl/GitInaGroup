@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@600&display=swap");
+
+:root {
+  --baseColor: #ccc;
+  --bgColor: #121212;
+  --accColor: #d32323;
+  --mainFont: "Open Sans", sans-serif;
+  --subFont: "Oswald", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-family: var(--mainFont);
+  background: var(--bgColor);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+li {
+  padding: 0.1rem 0.2rem;
+  color: var(--accColor);
+}
+
+h1,
+h2 {
+  color: var(--baseColor);
+  font-weight: 400;
+}
